@@ -1,7 +1,7 @@
 from random import randrange
 
 # TODO if using Github diff deployment on HeroKu uncomment the next line
-#import os
+import os
 import discord
 from discord.ext import commands
 
@@ -209,7 +209,7 @@ async def on_guild_channel_pins_update(channel, last_pin):
 
 
 # TODO Replace TOKEN with the token from discord developer portal 
-client.run('MTEwNTk3ODI0NDI0ODg5NTU3OA.GoB7zW.kl5azXMLFS_8xP__188upClQFcL3Ks7ZZ8ggeM')
+# client.run('MTEwNTk3ODI0NDI0ODg5NTU3OA.GoB7zW.kl5azXMLFS_8xP__188upClQFcL3Ks7ZZ8ggeM')
 
 # TODO If using GitHub diff deployment on HeroKu comment out the above line with '#' and remove '#' from the line below to uncomment it. 
-#client.run(os.environ.get('TOKEN'))
+client.run(os.environ.get('TOKEN'))
